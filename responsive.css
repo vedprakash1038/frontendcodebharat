@@ -1,0 +1,13 @@
+@media (min-width: 0px) and (max-width: 768px) {
+    nav span i{
+        display: block;
+    }
+    #nav-part2  {
+        flex-direction: column;
+        
+    }
+    #nav-part2 h4{
+        display: none;
+    }
+
+  }
