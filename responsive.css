@@ -1,13 +1,151 @@
 @media (min-width: 0px) and (max-width: 768px) {
-    nav span i{
-        display: block;
-    }
-    #nav-part2  {
-        flex-direction: column;
-        
-    }
-    #nav-part2 h4{
-        display: none;
-    }
+#nav-bottom{
+    display: none;
+}
+#page4 .section .sec-left p{
+    font-size: x-small;
+}
+#page4 .section .sec-right p{
+    font-size: x-small;
+}
+
+#page4 .section{
+    height: auto;
+padding: 3rem 1rem;
+
+}
+.sec-left p{
+    font-size:medium;
+   
+}
+#nav-part2 h4{
+    display: none;
+}
+.right-elem p{
+    font-size: 2vw;
+}
+#page4 p{
+    font-size: 1vw;
+}
+nav button{
+    margin-left: 48vw;
+}
+#page1 h1 span svg{
+    height: 10vh;
+}
+#page5{
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page5 button{
+    display: none;
+}
 
   }
+  @media (min-width: 769px) and (max-width: 992px) {
+   
+  #nav-bottom{
+    display: none;
+}
+#nav-part2 h4{
+    display: none;
+}
+nav button{
+    margin-left: 48vw;
+}
+}
+@media (min-width: 993px) and (max-width: 1100px) {
+    nav span i{
+        display: none;
+  }
+}
+  @media (min-width: 1101px) {
+nav span i{
+    display: none;
+}
+  }
+
+
+  @media (max-width:500px) {
+    #page4 .section p{
+        font-size: 1.6vw;
+    }
+    #page4 .section{
+        height: auto;
+    padding: 3rem 1rem;
+
+    }
+    .page5-elem h5{
+        font-size: 0.5rem;
+    }
+    .page5-elem i{
+        font-size: 1rem;
+    }
+    .right-elem img{
+        width: 3rem;
+    }
+ nav button{
+    width: 2.6rem;
+    font-size: 0.6rem;
+}
+.right-elem p{
+    font-size: 2.6vw;
+}
+#page2-left p{
+    font-size: 2.6vw;
+}
+#page1 h1 span svg{
+    width: 3rem; 
+}
+#page3{
+height: 60vh;
+
+}
+#page1{
+height: auto;
+}
+
+.sec-left p{     
+font-size: 0.5rem;
+}
+.sec-right{
+height: 60%;
+}
+#page1{
+height: auto;
+padding: 4.5rem 0rem;
+}
+#about-something h4{
+font-size: 0.5rem;
+}
+#moving-div{
+margin: 1rem;
+}
+
+
+
+.over h5{
+font-size: 0.5rem;
+}
+#sidebar{
+width: 10rem;
+}
+#sidebar a h5{
+font-size: 1rem;
+}
+#page4 .section .sec-left p{
+    font-size: x-small;
+}
+#page4 .section .sec-right p{
+    font-size: x-small;
+}
+
+
+ }
+   
+
+
+    
+  

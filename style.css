@@ -10,6 +10,8 @@ html,
 body {
     height: 100%;
     width: 100%;
+
+    
 }
 
 nav {
@@ -20,7 +22,7 @@ nav {
     justify-content: space-between;
     padding: 2vw 10vw;
     position: relative;
-
+    
 
 
 }
@@ -30,6 +32,7 @@ nav span i{
 nav h1 {
     font-size: 2.5vw;
     font-weight: 400;
+    color: #81e363;
 }
 
 nav button {
@@ -50,6 +53,7 @@ nav #nav-part2 {
 }
 #nav-part2 h4{
     font-weight: 400;
+    font-size: 1vw;
 }
 
 #nav-bottom {
@@ -78,19 +82,39 @@ nav #nav-part2 {
     opacity: 0;
 }
 
-nav:hover #nav-bottom {
-    /* background-color: red; */
-    /* height: 100%;
-    bottom: -100%; */
-
-}
-
 .bottom-div {
     margin-top: 2vw;
 }
 
 .bottom-div h1 {
     margin-bottom: 0.6vw;
+}
+
+ #sidebar{
+    height: 100vh;
+    width: 20rem;
+    background-color: rgb(15, 14, 14);
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: translateX(20rem);
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    transition: linear 250ms ease-in-out;
+    z-index: 99999;
+    
+}
+#sidebar span i{
+  margin-top: 1rem;
+    
+}
+#sidebar a{
+    text-decoration: none;
+    
+}
+#sidebar a h5{
+    margin-top: 2rem;
 }
 
 #page1 {
@@ -101,7 +125,6 @@ nav:hover #nav-bottom {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 #page1 h1 {
@@ -145,6 +168,7 @@ nav:hover #nav-bottom {
     padding: 1vh 0.4vw;
     border: 1px solid white;
     border-radius: 1rem;
+    font-size: 2vw;
 
 }
 
@@ -159,8 +183,7 @@ nav:hover #nav-bottom {
 
 #moving-div {
 
-    position: absolute;
-    top: 80%;
+    top: 70%;
     margin-top: 20vh;
     white-space: nowrap;
     overflow: hidden;
@@ -439,12 +462,14 @@ nav:hover #nav-bottom {
     display: flex;
     margin-top: 6vh;
     padding-bottom: 10vh;
+    gap: 2px;
 }
 #page5-content #flex h4{
     border-radius: 3.1rem;
     border:1px solid white;
     padding:0.3rem 1rem;
     font-weight: 400;
+    font-size: 2vw;
 
 }
 

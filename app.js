@@ -29,16 +29,38 @@ ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
 ScrollTrigger.refresh();
 
 }
-let menu = document.querySelector("nav span");
+// let menu = document.querySelector("nav span");
 
-let flexcolumn = document.querySelector("nav-part2");
+// let flexcolumn = document.querySelector("nav-part2");
 
+// menu.addEventListener("mouseclick",function(){
+//             flexcolumn.style.display = "block"
+// })
 
-menu.addEventListener("mouseclick",function(){
-            flexcolumn.style.display = "block"
-})
+        const body = document.querySelector('body')
+        const sidemenu= document.querySelector("#sidebar")
+        const menuhumbar= document.querySelector("nav span i")
+        const cross =document.querySelector('#sidebar span i')
+        // const sidebarWrong=document.querySelector("#sidebar span i")
 
+      function sidebaranimation(){ menuhumbar.addEventListener("click",function(){
 
+            sidemenu.style.transform="translateX(0rem)"
+            sidemenu.style.translateX="-20rem"
+            sidemenu.style.transition=": linear 250ms ease-in-out"
+           body.style.position='fixed'
+           
+            
+
+          
+        })}
+        function crossClose(){
+            cross.addEventListener('click',()=>{
+                sidemenu.style.transform="translateX(20rem)"
+                sidemenu.style.translateX="20rem"
+                sidemenu.style.transition=": linear 250ms ease"
+            })
+        }
 
 function navanimation() {
     var nav = document.querySelector("nav");
@@ -80,6 +102,9 @@ function navanimation() {
         })
     })
 }
+
+
+
 function page2animaton() {
     let rightelems = document.querySelectorAll(".right-elem");
 
@@ -148,10 +173,13 @@ function page3animation() {
 
 }
 
-// ----------------------page4--------------------------
-
 
 locomotiveanimation();
+sidebaranimation()
+crossClose();
 navanimation();
 page2animaton();
 page3animation();
+
+
+
