@@ -59,6 +59,7 @@ ScrollTrigger.refresh();
                 sidemenu.style.transform="translateX(20rem)"
                 sidemenu.style.translateX="20rem"
                 sidemenu.style.transition=": linear 250ms ease"
+                body.style.position='static'
             })
         }
 
