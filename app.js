@@ -48,7 +48,7 @@ ScrollTrigger.refresh();
             sidemenu.style.transform="translateX(0rem)"
             sidemenu.style.translateX="-20rem"
             sidemenu.style.transition=": linear 250ms ease-in-out"
-               body.style.position='fixed'
+            body.style.position='fixed'
            
             
 
